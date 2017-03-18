@@ -1,0 +1,5 @@
+---
+# vars file for apache2
+apache2_pkgs :
+ - libapache2-mod-auth-mysql
+ - apache2

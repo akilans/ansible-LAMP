@@ -1,0 +1,10 @@
+#SSH CONFIG TUTORIAL
+---> Install openssh-server in target machine
+
+From Host machine,
+
+---> Run "ssh-keygen" to generate RSA key pair & note down the location
+---> Run "ssh-copy-id -i /home/akilan/.ssh/id_rsa vagrant@192.168.33.10" command to copy RSA key pair to the target machine
+
+
+*****That's It*************

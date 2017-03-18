@@ -1,0 +1,11 @@
+---
+# vars file for mysql
+mysql_pkgs:
+  - mysql-server
+  - mysql-client
+  - python-mysqldb
+mysql_root_password : akilan
+mysql_hosts :
+  - localhost
+  - 127.0.0.1
+  - ::1

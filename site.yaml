@@ -1,0 +1,11 @@
+---
+- name : Setting up LAMP
+  hosts : webserver
+  remote_user : vagrant
+  become :  yes
+
+  roles :
+  - mysql
+  - apache2
+  - php
+  
