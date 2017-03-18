@@ -1,21 +1,19 @@
 # This is ansible playbook for installing LAMP
 
-# Install Ansible in your machine
+--> Install Ansible in your machine
 
-# Add target machine IP address in hostfile [Replace 192.168.33.12 with your web server IP address ]
+--> Add target machine IP address in hostfile [Replace 192.168.33.12 with your web server IP address ]
 
-# Enable SSH connection between your machine to target machine
+--> Enable SSH connection between your machine to target machine
 
-# Execute ansible task for Installing LAMP by calling the command "ansible-playbook -i hosts site.yaml" 
+--> Execute ansible task for Installing LAMP by calling the command "ansible-playbook -i hosts site.yaml" 
 
 
 
 
 ############################################################################
-                     NOTE
+NOTE -To practice ansible in your local environment vagrant & virtualbox is very good
 ############################################################################
-
-# To practice ansible in your local environment vagrant & virtualbox is very good
 
 #SSH CONFIG TUTORIAL
 
